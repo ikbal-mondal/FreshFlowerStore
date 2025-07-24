@@ -233,7 +233,7 @@ body {
   background-color: #f25a1c;
   color: #fff;
   border: none;
-  padding: 1rem 2rem;
+  padding: 11px;
   border-radius: 2px;
   cursor: pointer;
   font-weight: 400;
@@ -268,9 +268,9 @@ body {
 
 .lover-image .badge {
     position: absolute;
-    top: -117px;
-    right: -118px;
-    width: 276px;
+    top: -89px;
+    right: -62px;
+    width: 170px;
     z-index: 5;
 }
 
@@ -301,11 +301,8 @@ body {
     padding: 2rem 1rem;
   }
 
-  .lover-image .badge img{
-    top: -20px;
-    right: -20px;
-    width: 100px;
-    height: 100px;
+  .lover-image .badge {
+  display: none;
   }
 
   .lover-content {
@@ -444,10 +441,10 @@ body {
 }
 
 .join-overlay {
-  max-width: 700px;
+   width: 90%;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 2rem;
+  /* background: rgba(0, 0, 0, 0.4); */
+  padding: 1rem;
   border-radius: 12px;
 }
 
@@ -465,12 +462,12 @@ body {
 }
 
 .join-form input {
-  flex: 1;
+  /* flex: 1; */
   padding: 0.8rem 1rem;
   border: none;
   border-radius: 4px 0 0 4px;
   font-size: 1rem;
-  width: 240px;
+  /* width: 240px; */
 }
 
 .join-form button {
@@ -483,6 +480,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   transition: background-color 0.3s ease;
+  text-align: center;
 }
 
 .join-form button:hover {
@@ -536,6 +534,7 @@ body {
 .footer-brand img.footer-logo {
   max-width: 120px;
   margin-bottom: 1rem;
+  border: 50%;
 }
 
 .footer-brand p {
