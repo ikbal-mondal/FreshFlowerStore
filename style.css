@@ -1,9 +1,10 @@
 /* Global Styles */
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: 'Segoe UI', sans-serif;
   background: #f8faff;
-  color: #333;
+  
 }
 
 /* Navbar */
@@ -31,11 +32,16 @@ body {
   gap: 2rem;
   align-items: center;
 }
-
+.gray-color{
+    color: #8987A1;
+}
 .nav-links a {
   text-decoration: none;
-  color: #222;
+  
   font-weight: 500;
+}
+.nav-links a:hover{
+  color:blue;
 }
 
 .cart {
@@ -63,8 +69,10 @@ body {
 }
 
 .banner-content h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
+  padding-bottom: 0px;
+  margin: 0px;
 }
 
 .banner-content h1 span {
@@ -74,7 +82,7 @@ body {
 .banner-content p {
   font-size: 1rem;
   color: #555;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   line-height: 1.6;
 }
 
@@ -116,18 +124,12 @@ body {
   }
 
   .banner-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    /* padding: 1rem 1rem; */
-  }
-
-  .banner {
-    /* padding: 2rem 1rem; */
-  }
+ 
   .banner-image img {
   width: 100%;
   height: 100%;
@@ -136,6 +138,9 @@ body {
   justify-content: end;
   align-items: end;
 }
+.banner-content h1 {
+    font-size: 2rem;
+  }
 }
 
 
@@ -146,7 +151,7 @@ body {
 }
 
 .plants-section h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
@@ -206,7 +211,7 @@ body {
 }
 
 .plant-card button:hover {
-  background-color: #d9480f;
+  background-color: #551902;
 }
 
 /* Responsive Layout */
@@ -239,6 +244,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   transition: background-color 0.3s ease;
+}
+.plants-section h1{
+    font-size: 1.5rem;
 }
 
 }
@@ -280,7 +288,7 @@ body {
 }
 
 .lover-content h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   margin-bottom: 1rem;
   color: #222;
@@ -315,6 +323,16 @@ body {
  .lover-image .badge{
    visibility: hidden;
 }
+
+.lover-content h2 {
+  font-size: 1.5rem;
+  
+}
+
+.latest-deals h2 {
+  font-size: 1.5rem;
+  /* margin-bottom: 0.5rem; */
+}
 }
 
 
@@ -326,7 +344,7 @@ body {
 }
 
 .latest-deals h2 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   margin-bottom: 0.5rem;
 }
 
